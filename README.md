@@ -1,1 +1,1 @@
-This project was bootstrapped with [Social Buddy demo](https://github.com/facebook/create-react-app).
+ [Social Buddy demo](https://sad-kirch-5cb622.netlify.app).
