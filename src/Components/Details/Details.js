@@ -49,7 +49,7 @@ const Details = () => {
     <div>
         <Container maxWidth="lg">
         <Grid container spacing={3}>
-        <Grid item xs={8} sm={8} md={8}>
+        <Grid item xs={12} sm={12} md={8}>
             <Card className={classes.card}>
             <CardActionArea>
                 <CardContent>
@@ -71,7 +71,7 @@ const Details = () => {
         {comments.map((comment,index) =>{
               const ranUser = commenter[Math.floor(Math.random() * commenter.length)];
                 return (
-                 <Grid item xs={8} sm={8} md={8}>
+                 <Grid item xs={12} sm={12} md={8}>
                     <Card className={classes.card}>
                         <CardActionArea>
                             <CardContent>

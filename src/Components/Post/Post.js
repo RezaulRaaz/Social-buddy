@@ -21,7 +21,7 @@ const Post = (props) => {
     const classes = useStyles();
     const{body,id,title}=props.post;
   return (
-    <Grid item xs={8} sm={8} md={8}>
+    <Grid item xs={12} sm={12} md={8}>
       <Card className={classes.card}>
         <CardActionArea>
           <CardContent>

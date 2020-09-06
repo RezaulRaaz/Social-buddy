@@ -31,7 +31,7 @@ const Home = () => {
   return (
     <div>
       <Container maxWidth="lg">
-        <Grid container spacing={3}>
+        <Grid continer spacing={3}>
            {
                posts.map(post =><Post post={post} key={post.id}></Post>)
            }
